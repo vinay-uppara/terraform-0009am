@@ -4,3 +4,15 @@ resource "aws_instance" "name" {
     key_name = "VRS"
   
 }
+
+
+
+
+
+
+
+
+#note  developers overwriting each Others work if separete statefile for same project
+#merge conflicts in terraform.tfstate
+#both developers working independently not collabrative
+#solution:-mantain common satetefile to over come issues
